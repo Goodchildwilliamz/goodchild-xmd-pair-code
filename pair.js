@@ -75,7 +75,7 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "DRAXEN-Ai~" + string_session;
+                        let md = "GOODCHILD-XMD~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
                         let desc = `┏━━━━━━━━━━━━━━ 
 ┃GOODCHILD-XMD
@@ -94,7 +94,7 @@ var randomItem = selectRandomItem(items);
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
  ★ || ʏᴏᴜᴛᴜʙᴇ = https://youtube.com/@abdallahsalim-f5u?si=PPyQy2qogiXA-PCG 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ DRAXEN Ai 🤎 `; 
+> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ GOODCHILD XMD 🤎 `; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
@@ -110,7 +110,7 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Don't Share with anyone this code use for deploy SHEIKH-ALI-MD*\n\n ◦ *Github:* https://github.com/SHEIKH-ALI-2402/SHEIKH-ALI-MD`;
+                            let desc = `*Don't Share with anyone this code use for deploy GOODCHILD-XMD*\n\n ◦ *Github:* https://github.com/Goodchildwilliamz/GOODCHILD-XMD`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
